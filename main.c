@@ -42,8 +42,8 @@ int main(int argc, char *argv[]) {
 				break;
 			case 'h':
 				printf( "colorpicker [options]\n"
-						"  -h, --help:      display this dialogue\n"
-						"  -o, --one-shot:  read once then exit\n");
+						"  -o, --one-shot:  read once then exit\n"
+						"  -h, --help:      display this dialogue\n");
 				return 0;
 			default:
 				return 1;
